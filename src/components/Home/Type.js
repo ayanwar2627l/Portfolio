@@ -9,7 +9,7 @@ function Type() {
           "Software Developer",
           "MERN Stack Developer",
           "Open Source Contributor",
-          "AI Enhanced Reviewer in Outlier",
+          "Competitive Programmer",
           "Problem Solver",
         ],
         autoStart: true,
