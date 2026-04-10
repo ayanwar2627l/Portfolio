@@ -1,14 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/home-profile.png";
-import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -49,11 +47,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" style={{ maxHeight: "400px", width: "100%", objectFit: "cover", borderRadius: "20px", border: "4px solid #c770f0", boxShadow: "0px 0px 25px 5px rgba(199, 112, 240, 0.6)" }} />
-            </Tilt>
-          </Col>
+
         </Row>
       </Container>
     </Container>
